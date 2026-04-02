@@ -90,7 +90,6 @@ export const NewMovie: React.FC<Props> = ({ onAdd }) => {
             type="submit"
             data-cy="submit-button"
             className="button is-link"
-            onClick={submitForm}
             disabled={!isFormValid}
           >
             Add
